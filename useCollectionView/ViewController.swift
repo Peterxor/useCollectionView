@@ -16,6 +16,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         super.viewDidLoad()
         setMyLayout()
         self.collectionView = UICollectionView.init(frame: UIScreen.main.bounds, collectionViewLayout: myLayout)
+        //debug:UICollectionView must be initialized with a non-nil layout parameter
         self.collectionView?.register(MyCell.self, forCellWithReuseIdentifier: "MyCell")
         self.collectionView?.delegate = self
         self.collectionView?.dataSource = self
@@ -27,7 +28,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     }
     
     func setMyLayout(){
-        myLayout = UICollectionViewFlowLayout()
+        myLayout = UICollectionViewFlowLayout()//Layout object 在這裡 instantiste
         myLayout.scrollDirection = .horizontal
         myLayout.sectionInset = UIEdgeInsets.init(top: 10, left: 10, bottom: 10, right: 10)
     }
