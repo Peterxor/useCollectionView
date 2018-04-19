@@ -11,6 +11,16 @@
 		D06043BC208846FF009B912B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06043BB208846FF009B912B /* ViewController.swift */; };
 		D06043C1208846FF009B912B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06043C0208846FF009B912B /* Assets.xcassets */; };
 		D06043C4208846FF009B912B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06043C2208846FF009B912B /* LaunchScreen.storyboard */; };
+		D06043CC20885ACE009B912B /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D06043CB20885ACE009B912B /* blue.png */; };
+		D06043CE20885AF2009B912B /* bodyline.png in Resources */ = {isa = PBXBuildFile; fileRef = D06043CD20885AF2009B912B /* bodyline.png */; };
+		D06043D020885B1A009B912B /* darkvarder.png in Resources */ = {isa = PBXBuildFile; fileRef = D06043CF20885B1A009B912B /* darkvarder.png */; };
+		D06043D220885B33009B912B /* dudu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06043D120885B33009B912B /* dudu.jpg */; };
+		D06043D420885B48009B912B /* hello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06043D320885B48009B912B /* hello.jpg */; };
+		D06043D620885B67009B912B /* hhhhh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06043D520885B67009B912B /* hhhhh.jpg */; };
+		D06043D820885B87009B912B /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = D06043D720885B86009B912B /* run.png */; };
+		D06043DA20885B99009B912B /* wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06043D920885B99009B912B /* wave.jpg */; };
+		D06043DE20885BEE009B912B /* DataName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06043DD20885BEE009B912B /* DataName.swift */; };
+		D06043E020886487009B912B /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06043DF20886487009B912B /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		D06043C0208846FF009B912B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06043C3208846FF009B912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D06043C5208846FF009B912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06043CB20885ACE009B912B /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		D06043CD20885AF2009B912B /* bodyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bodyline.png; sourceTree = "<group>"; };
+		D06043CF20885B1A009B912B /* darkvarder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkvarder.png; sourceTree = "<group>"; };
+		D06043D120885B33009B912B /* dudu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dudu.jpg; sourceTree = "<group>"; };
+		D06043D320885B48009B912B /* hello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello.jpg; sourceTree = "<group>"; };
+		D06043D520885B67009B912B /* hhhhh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hhhhh.jpg; sourceTree = "<group>"; };
+		D06043D720885B86009B912B /* run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run.png; sourceTree = "<group>"; };
+		D06043D920885B99009B912B /* wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wave.jpg; sourceTree = "<group>"; };
+		D06043DD20885BEE009B912B /* DataName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataName.swift; sourceTree = "<group>"; };
+		D06043DF20886487009B912B /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +72,31 @@
 		D06043B8208846FF009B912B /* useCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				D06043E120886C5B009B912B /* Picture */,
 				D06043B9208846FF009B912B /* AppDelegate.swift */,
 				D06043BB208846FF009B912B /* ViewController.swift */,
 				D06043C0208846FF009B912B /* Assets.xcassets */,
 				D06043C2208846FF009B912B /* LaunchScreen.storyboard */,
 				D06043C5208846FF009B912B /* Info.plist */,
+				D06043DD20885BEE009B912B /* DataName.swift */,
+				D06043DF20886487009B912B /* MyCell.swift */,
 			);
 			path = useCollectionView;
+			sourceTree = "<group>";
+		};
+		D06043E120886C5B009B912B /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				D06043D920885B99009B912B /* wave.jpg */,
+				D06043D720885B86009B912B /* run.png */,
+				D06043D520885B67009B912B /* hhhhh.jpg */,
+				D06043D320885B48009B912B /* hello.jpg */,
+				D06043D120885B33009B912B /* dudu.jpg */,
+				D06043CF20885B1A009B912B /* darkvarder.png */,
+				D06043CD20885AF2009B912B /* bodyline.png */,
+				D06043CB20885ACE009B912B /* blue.png */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,8 +158,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06043D620885B67009B912B /* hhhhh.jpg in Resources */,
 				D06043C4208846FF009B912B /* LaunchScreen.storyboard in Resources */,
+				D06043D220885B33009B912B /* dudu.jpg in Resources */,
+				D06043D820885B87009B912B /* run.png in Resources */,
+				D06043CE20885AF2009B912B /* bodyline.png in Resources */,
+				D06043D020885B1A009B912B /* darkvarder.png in Resources */,
+				D06043DA20885B99009B912B /* wave.jpg in Resources */,
 				D06043C1208846FF009B912B /* Assets.xcassets in Resources */,
+				D06043D420885B48009B912B /* hello.jpg in Resources */,
+				D06043CC20885ACE009B912B /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06043BC208846FF009B912B /* ViewController.swift in Sources */,
+				D06043E020886487009B912B /* MyCell.swift in Sources */,
+				D06043DE20885BEE009B912B /* DataName.swift in Sources */,
 				D06043BA208846FF009B912B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
