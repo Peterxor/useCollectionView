@@ -14,7 +14,6 @@ class DataName{
     }
     
     static func myDataName() -> [DataName]{
-        return [DataName(title: "wave"), DataName(title: "run"), DataName(title: "hhhhh"), DataName(title: "hello"),
-                DataName(title: "dudu"), DataName(title: "darkvarder"), DataName(title: "bodyline"), DataName(title: "blue")]
+        return [DataName(title: "wave.jpg"), DataName(title: "run.png"), DataName(title: "hhhhh.jpg"), DataName(title: "hello.jpg"), DataName(title: "dudu.jpg"), DataName(title: "darkvarder.png"), DataName(title: "bodyline.png"), DataName(title: "blue.png")]
     }
 }
