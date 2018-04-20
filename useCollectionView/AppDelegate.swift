@@ -16,7 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        collectionController = ViewController()
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        layout.sectionInset = UIEdgeInsets.init(top: 50, left: 50, bottom: 50, right: 50)
+        layout.itemSize = CGSize.init(width: UIScreen.main.bounds.width - 100, height: UIScreen.main.bounds.width - 100)
+        
+        collectionController = ViewController(collectionViewLayout: layout)
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .gray
         window?.rootViewController = collectionController
