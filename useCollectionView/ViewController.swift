@@ -37,6 +37,11 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         let imageview = UIImageView.init(image: UIImage.init(named: dataname!))
         imageview.frame = cell.contentView.frame
         cell.contentView.addSubview(imageview)
+        print("cell width", cell.frame.width)
+        print("cell height", cell.frame.height)
+        cell.contentView.layer.cornerRadius = 50
+        cell.contentView.clipsToBounds = true
+        
         return cell
     }
 

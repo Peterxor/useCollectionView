@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .vertical
+        layout.scrollDirection = .horizontal
         layout.sectionInset = UIEdgeInsets.init(top: 50, left: 50, bottom: 50, right: 50)
         layout.itemSize = CGSize.init(width: UIScreen.main.bounds.width - 100, height: UIScreen.main.bounds.width - 100)
         
